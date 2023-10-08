@@ -1,0 +1,48 @@
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+html, body {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font: 12px;
+    background-color: #f2f2f2;
+    margin:0;
+    padding: 0;
+    
+     }
+h1{
+        color : #000000;
+        font-size : 3rem;
+        font-weight : bold;
+        
+}
+        
+     
+h2 {
+    color : #000000;
+    font-size : 3rem;
+    font-weight : bold;
+    
+  
+  }
+
+ul{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 70px;
+    list-style: none;
+    line-height: 1.9;
+   
+}
+main{
+   text-align: center;
+   margin: 5rem auto;
+   padding: 5rem 2rem;
+   width: 90%;
+   background-color: white;
+
+}
+li:hover {
+    cursor: pointer;
+}
