@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Say Hello</title>
+    <script>
+        // İlk adım olarak sayfanın tamamen yüklenmesini beklemek için bir event listener ekleyin.
+        window.addEventListener("load", function () {
+            let name = getUserName('Please enter your name');
+            document.getElementById("name").innerHTML = name;
+        });
+
+        function getUserName(promptMsg) {
+            let userName = prompt(promptMsg);
+            return userName;
+        }
+    </script>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p id="name"></p>
+</body>
+</html>
