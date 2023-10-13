@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team / PowerCoders2023-2</title>
+    <style>
+        body{
+            box-sizing: border-box;
+            background-color: rgb(228, 234, 236);
+        }
+        body::after, body::before{
+            box-sizing: inherit;
+        }
+        a{
+            text-decoration: none;
+            color: #f5f2f2; 
+            transition: color 0.2s;
+        }
+        a:hover {
+            color: #1689e7;
+        }
+        .friend {
+            display: inline-block;
+            text-align: center;
+            margin: 10px;
+            margin-top: 60px;
+            width: calc(33.33% - 20px);
+            padding-bottom: 20px;
+         
+        }
+
+        .friend img {
+            border-radius: 50%;
+            width: 150px; 
+            height: 150px; 
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease;
+            
+        }
+
+        .friend img:hover {
+            transform: scale(1.05);
+        }
+        */
+        .friend p {
+            font-weight: bold;
+        }
+        
+
+        @keyframes blink {
+            0%  {
+            background-color: transparent;
+        
+            }
+            50% {
+            background-color: rgb(151, 192, 231); 
+             }
+            100% {
+            background-color: transparent;
+             }
+            }
+
+        h1  {
+            animation: blink 2s infinite; 
+            align-items: center;
+            text-align: center;
+            }
+
+        .navbar-container {
+             background-color: #68d7e6;
+             border: 1px solid #ccc;
+             padding: 10px;
+             display: flex;
+             justify-content: center;
+             align-items: center;
+              
+        }
+        nav{ 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .top-menu ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: left;      
+            
+        }
+
+        .menu-item {
+            margin-right: 10px;
+            color: white;
+        }
+        
+        .search-box {
+            display: flex;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .search-button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            outline: none;
+        }
+        .top-menu{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            
+        }  
+    </style>
+</head>
+<body>
+    <div class="navbar-container">
+        <nav class="top-menu">
+            <ul>
+                <li><a href="index.html">Home |</a></li>
+                <li><a href="index.html">About Us |</a></li>
+                <li><a href="index.html">Contact </a></li>
+            </ul>
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button" id="search-button">Search</button>
+                
+            </div>
+        </nav>
+    </div>
+     <h1><strong style="color:red">{</strong><strong style="color:rgb(11, 11, 11)">P</strong><strong style="color:red">}</strong>    OUR TEAM    <strong style="color:red">{</strong><strong style="color:rgb(11, 11, 11)">P</strong><strong style="color:red">}</strong></h1>
+
+    <div id="friendList">
+    </div>
+
+    <div id="searchResults"></div>
+    <script src="script.js"></script>
+</body>
+</html>
