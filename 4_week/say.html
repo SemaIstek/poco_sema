@@ -5,16 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Say Hello</title>
     <script>
-        // İlk adım olarak sayfanın tamamen yüklenmesini beklemek için bir event listener ekleyin.
         window.addEventListener("load", function () {
-            let name = getUserName('Please enter your name');
-            document.getElementById("name").innerHTML = name;
-        });
+    let name = getValidUserName('Please enter your name');
 
-        function getUserName(promptMsg) {
-            let userName = prompt(promptMsg);
-            return userName;
-        }
+    document.getElementById("name").innerHTML = name;
+});
+
+function getValidUserName(promptMsg) {
+    let userName;
+    do {
+        userName = prompt(promptMsg);
+    } while (!isAlphabeticString(userName));
+    return userName;
+}
+
+function isAlphabeticString(value) {
+    return /^[A-Za-z]+$/.test(value);
+}
+
+
     </script>
 </head>
 <body>
