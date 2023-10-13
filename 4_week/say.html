@@ -5,26 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Say Hello</title>
     <script>
-        window.addEventListener("load", function () {
-    let name = getValidUserName('Please enter your name');
+        /*
+        let name = getValidUserName('Please enter your name');
+        document.getElementById("name").innerHTML = name;
 
-    document.getElementById("name").innerHTML = name;
-});
-
-function getValidUserName(promptMsg) {
-    let userName;
-    do {
+    function getValidUserName(promptMsg) {
+        let userName;
+        do {
         userName = prompt(promptMsg);
-    } while (!isAlphabeticString(userName));
-    return userName;
-}
+         } while (!isAlphabeticString(userName));
+        return userName;
+    }
 
-function isAlphabeticString(value) {
+    function isAlphabeticString(value) {
+        return /^[A-Za-z]+$/.test(value);
+    }
+*/
+        window.addEventListener("load", function () {
+        let name = getValidUserName('Please enter your name');
+
+        document.getElementById("name").innerHTML = name;
+        }
+        );
+
+    function getValidUserName(promptMsg) {
+        let userName;
+        do {
+        userName = prompt(promptMsg);
+        } while (!isAlphabeticString(userName));
+        return userName;
+    }
+
+    function isAlphabeticString(value) {
     return /^[A-Za-z]+$/.test(value);
-}
-
-
-    </script>
+    }
+</script>
 </head>
 <body>
     <h1>Hello</h1>
