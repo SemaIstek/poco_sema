@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recap Monday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Recap For All Lessons</h1>
+    <form action="index.html" method="post">
+        <fieldset>
+            <legend>Information</legend>
+        <label for="fname">Please enter your name:</label>
+        <input type="text" name="fname" id="fname">
+        <label for="fname">Please enter your last name:</label>
+        <input type="text" name="lname" id="lname">
+        <label>Choose your favourite programming language:</label>
+        <input type="radio" name="language">
+        <label for="language" name="language">Java</label>
+        <input type="radio" name="language">
+        <label for="language" name="language">Python</label>
+        <input type="radio" name="language">
+        <label for="language" name="language">C++</label>
+        <label for="level">Your English Level</label>
+        <select name="level" id="level">
+            <option value="a1" selected>A1</option>
+            <option value="a2">A2</option>
+            <option value="b1">B1</option>
+            <option value="b2">B2</option>
+            <option value="c1">C1</option>
+            <option value="c2">C2</option>
+        </select><br>
+        <p>Choose Your Free Times</p>
+        <label for="lecture">10.00</label>
+        <input type="checkbox" name="lecture" id="lecture">
+        <label for="lecture">11.00</label>
+        <input type="checkbox" name="lecture" id="lecture">
+        <label for="lecture">12.00</label>
+        <input type="checkbox" name="lecture" id="lecture">
+        <label for="class">Choose your class:</label>
+        <input list="class" name="class">
+        <datalist id="class">
+            <option value="Beginner">
+            <option value="Intermediate">
+            <option value="Advance">
+        </datalist><br>
+        <label for="date">Select free date:</label>
+        <input type="date">
+        <input type="submit" >
+        </fieldset>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    box-sizing: border-box;
+}
+body::after, body::before{
+    box-sizing: inherit;
+}
+form{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    
+    
+}
+fieldset{
+    
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5px;
+  
+    
+}
+label{
+    display: block;
+    margin-right: 10px;
+    width: 60%;
+}
+input{
+    width: 40%;
+}
+input, select, datalist  {
+    padding: 5px; 
+}
+
+input[type="radio"] {
+    transform: scale(0.8); 
+}
