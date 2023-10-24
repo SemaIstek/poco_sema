@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Powercoders Quiz</title>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Powercoders Bootcamp Quiz</h1>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <div id="options-container">
+                <button class="option" onclick="checkAnswer(this)"></button>
+                <button class="option" onclick="checkAnswer(this)"></button>
+                <button class="option" onclick="checkAnswer(this)"></button>
+                <button class="option" onclick="checkAnswer(this)"></button>
+            </div>
+        </div>
+        <button id="next-button" onclick="nextQuestion()">Next</button>
+        <div id="result-container">
+            <p>Your score: <span id="score">0</span></p>
+            <p id="message"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
