@@ -1,0 +1,17 @@
+ul {
+    background-color: gray;
+    border: 2px solid lightblue;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li {
+    color: lightblue;
+     }
+
+img{
+    width: 200px;
+    height: 150px;
+}

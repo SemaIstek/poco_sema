@@ -1,0 +1,30 @@
+/* CSS kuralları burada tanımlanır */
+.calculator, .currency-converter {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+#tipAmount, #convertedAmount {
+    font-weight: bold;
+    margin-top: 10px;
+}

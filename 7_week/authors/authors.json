@@ -1,0 +1,62 @@
+ [
+    {
+        "firstName": "Andreas",
+        "lastName": "Neeser",
+        "image"     : "./img/tile_andreas_neeser.jpg"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Ruchat",
+        "image"     : "./img/tile_anna_ruchat.jpg"
+    },
+    {
+        "firstName": "Arno",
+        "lastName": "Camenisch",
+        "image"     : "./img/tile_arno_camenisch.jpg"
+    },
+    {
+        "firstName": "Barbara",
+        "lastName": "Schibli",
+        "image"     : "./img/tile_barbara_schibli.jpg"
+    },
+    {
+        "firstName": "Demian",
+        "lastName": "Leinhard",
+        "image"     : "./img/tile_demian_leinhard.jpg"
+    },
+    {
+        "firstName": "Flurina",
+        "lastName": "Bader",
+        "image"     : "./img/tile_flurina_bader.jpg"
+    },
+    {
+        "firstName": "Franco",
+        "lastName": "Supino",
+        "image"     : "./img/tile_franco_supino.jpg"
+    },
+    {
+        "firstName": "Lukas",
+        "lastName": "Hartmann",
+        "image"     : "./img/tile_lukas_hartmann.jpg"
+    },
+    {
+        "firstName": "Marius",
+        "lastName": "Popescu",
+        "image"     : "./img/tile_marius_popescu.jpg"
+    },
+    {
+        "firstName": "Reto",
+        "lastName": "Haenny",
+        "image"     : "./img/tile_reto_haenny.jpg"
+    },
+    {
+        "firstName": "Sandra",
+        "lastName": "Kuenzi",
+        "image"     : "./img/tile_sandra_kuenzi.jpg"
+    },
+    {
+        "firstName": "Simon",
+        "lastName": "Libsig",
+        "image"     : "./img/tile_simon_libsig.jpg"
+    }
+]
