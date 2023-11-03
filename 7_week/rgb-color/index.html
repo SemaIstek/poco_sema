@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RGB Color Generator</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RGB Color Generator</h1>
+        <div class="sliders">
+            <label for="red">Red:</label>
+            <input type="range" id="red" min="0" max="255" value="0">
+
+            <label for="green">Green:</label>
+            <input type="range" id="green" min="0" max="255" value="0">
+
+            <label for="blue">Blue:</label>
+            <input type="range" id="blue" min="0" max="255" value="0">
+        </div>
+        <div class="color-box" id="color-box"></div>
+        <p id="rgb-value">RGB(0, 0, 0)</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
