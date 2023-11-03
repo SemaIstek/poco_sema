@@ -125,7 +125,7 @@ function showResult() {
     resultContainer.style.display = "block";
     scoreElement.textContent = score;
     if (score === questions.length) {
-        messageElement.textContent = "You are a genius!";
+        messageElement.textContent = "You are an excellent coder!";
     } else if (score >= Math.floor(questions.length / 2)) {
         messageElement.textContent = "You did well!";
     } else {

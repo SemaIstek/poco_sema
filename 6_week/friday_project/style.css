@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#companyList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.company {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+}
+
+.company.favorite {
+    background-color: #ffeecc;
+}
+
+#comparisonResult {
+    margin-top: 20px;
+}
+
+button {
+    margin: 10px;
+}
